@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Find Holidays</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    
+  <div class="image_container">
+    <div class="container">
+      <h1 class="text-center py-4">SELECT COUNTRY AND DATE TO GET LIST OF HOLIDAYS</h1>
+      <div class="input-group input-group-sm mb-3">
+        
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Select Country</span>
+              </div>
+              <select name="#" id="select-box" class="form-control">
+                <option value="ertyu"></option>
+                <option value="IN">India</option>
+                <option value="US">Unites States</option>
+                <option value="AU">Australia</option>
+                <option value="BD">Bangladesh</option>
+                <option value="CA">Canada</option>
+                <option value="CN">China</option>
+                <option value="EG">Egypt</option>
+                <option value="DE">Germany</option>
+                <option value="IQ">Iraq</option>
+                <option value="JP">Japan</option>
+                <option value="PK">Pakistan</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="TR">Turkey</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Enter Year</span>
+              </div>
+              <input type="number" class="form-control" id="enter-year" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+          <div class="col-4"></div>
+          <div class="col"><button id="printUsers" class="px-4 py-2 bg-light "> Submit Data </button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="body-color">
+    <div id="show-data" class="show_data">
+    
+    </div>
+  </div>
+
+
+
+      <!-- Slim jQuery slim build  -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Local Java Script File -->
+  <script src="app.js"></script>
+</body>
+</html>
